@@ -46,7 +46,7 @@ function Account() {
           <Button>{buttonLabel}</Button>
         </Flex>
         <Image
-          src="https://cdn4.iconfinder.com/data/icons/essential-app-2/16/cash-money-coin-value-64.png"
+          src="https://cdn2.iconfinder.com/data/icons/sale-and-discount/32/Sale_and_Discount-01-64.png"
           alt=""
           width={80}
           height={80}
