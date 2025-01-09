@@ -1,7 +1,14 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  // Add other configuration options here
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: '**.iconfinder.com',
+      },
+    ],
+  },
 };
 
 module.exports = nextConfig;
